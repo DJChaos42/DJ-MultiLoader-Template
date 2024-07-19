@@ -17,6 +17,12 @@
     "entrypoints": {
         "main": [
             "com.example.examplemod.ExampleMod"
+        ],
+        "client": [
+            "com.example.examplemod.ExampleModFabricClient"
+        ],
+        "fabric-datagen": [
+            "com.example.examplemod.ExampleModDatagen"
         ]
     },
     "mixins": [
