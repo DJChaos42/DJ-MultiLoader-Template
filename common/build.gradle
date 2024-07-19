@@ -23,6 +23,15 @@ dependencies {
     annotationProcessor group: 'io.github.llamalad7', name: 'mixinextras-common', version: '0.3.5'
 }
 
+sourceSets {
+    main {
+        resources {
+            srcDir(project(":common").file("src/generated/resources"))
+            exclude("**/.cache")
+        }
+    }
+}
+
 configurations {
     commonJava {
         canBeResolved = false
@@ -36,6 +45,6 @@ configurations {
 
 artifacts {
     commonJava sourceSets.main.java.sourceDirectories.singleFile
-    commonResources sourceSets.main.resources.sourceDirectories.singleFile
+    commonResources sourceSets.main.resources.sourceDirectories.files
 }
 
