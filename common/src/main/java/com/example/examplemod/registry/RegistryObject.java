@@ -1,4 +1,4 @@
-package com.example.examplemod.registration;
+package com.example.examplemod.registry;
 
 import net.minecraft.core.Holder;
 import net.minecraft.resources.ResourceKey;
