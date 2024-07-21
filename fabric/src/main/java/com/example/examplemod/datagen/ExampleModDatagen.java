@@ -21,7 +21,7 @@ import net.minecraft.world.level.block.Block;
 import java.util.Optional;
 import java.util.concurrent.CompletableFuture;
 
-public class InfiniDungeonDatagen implements DataGeneratorEntrypoint {
+public class ExampleModDatagen implements DataGeneratorEntrypoint {
     @Override
     public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
         FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
