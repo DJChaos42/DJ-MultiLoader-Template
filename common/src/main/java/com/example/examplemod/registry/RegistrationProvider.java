@@ -1,4 +1,4 @@
-package com.example.examplemod.registration;
+package com.example.examplemod.registry;
 
 import com.example.examplemod.platform.Services;
 import net.minecraft.Util;
