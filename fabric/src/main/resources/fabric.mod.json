@@ -22,7 +22,7 @@
             "com.example.examplemod.ExampleModFabricClient"
         ],
         "fabric-datagen": [
-            "com.example.examplemod.ExampleModDatagen"
+            "com.example.examplemod.datagen.ExampleModDatagen"
         ]
     },
     "mixins": [
